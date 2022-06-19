@@ -5,13 +5,13 @@ from pprint import pprint
 from decimal import Decimal
 from typing import Union, Tuple, Optional
 
-from tronpy import keys
-from tronpy.async_contract import AsyncContract, ShieldedTRC20, AsyncContractMethod
-from tronpy.keys import PrivateKey
-from tronpy.abi import tron_abi
-from tronpy.defaults import conf_for_name
-from tronpy.providers.async_http import AsyncHTTPProvider
-from tronpy.exceptions import (
+from wallet.tronpy import keys
+from wallet.tronpy.async_contract import AsyncContract, ShieldedTRC20, AsyncContractMethod
+from wallet.tronpy.keys import PrivateKey
+from wallet.tronpy.abi import tron_abi
+from wallet.tronpy.defaults import conf_for_name
+from wallet.tronpy.providers.async_http import AsyncHTTPProvider
+from wallet.tronpy.exceptions import (
     BadSignature,
     BadKey,
     BadHash,

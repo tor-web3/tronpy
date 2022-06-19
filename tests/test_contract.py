@@ -2,9 +2,9 @@ import asyncio
 
 import pytest
 
-from tronpy import Tron, Contract
-from tronpy import AsyncTron, AsyncContract
-from tronpy.keys import PrivateKey
+from wallet.tronpy import Tron, Contract
+from wallet.tronpy import AsyncTron, AsyncContract
+from wallet.tronpy.keys import PrivateKey
 
 
 def test_const_functions():

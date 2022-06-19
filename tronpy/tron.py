@@ -4,13 +4,13 @@ from pprint import pprint
 from decimal import Decimal
 from typing import Union, Tuple, Optional
 
-from tronpy import keys
-from tronpy.contract import Contract, ShieldedTRC20, ContractMethod
-from tronpy.keys import PrivateKey
-from tronpy.providers import HTTPProvider
-from tronpy.abi import tron_abi
-from tronpy.defaults import conf_for_name
-from tronpy.exceptions import (
+from wallet.tronpy import keys
+from wallet.tronpy.contract import Contract, ShieldedTRC20, ContractMethod
+from wallet.tronpy.keys import PrivateKey
+from wallet.tronpy.providers import HTTPProvider
+from wallet.tronpy.abi import tron_abi
+from wallet.tronpy.defaults import conf_for_name
+from wallet.tronpy.exceptions import (
     BadSignature,
     BadKey,
     BadHash,

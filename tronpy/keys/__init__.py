@@ -6,7 +6,7 @@ from collections.abc import ByteString, Hashable
 import random
 from typing import Any, Union
 
-from tronpy.exceptions import BadKey, BadSignature, BadAddress
+from wallet.tronpy.exceptions import BadKey, BadSignature, BadAddress
 
 
 def keccak256(data: bytes) -> bytes:

@@ -1,5 +1,5 @@
-from tronpy import Tron
-from tronpy.exceptions import AddressNotFound
+from wallet.tronpy import Tron
+from wallet.tronpy.exceptions import AddressNotFound
 from pprint import pprint
 
 client = Tron()

@@ -1,4 +1,4 @@
-from tronpy import Tron
+from wallet.tronpy import Tron
 from pprint import pprint
 
 

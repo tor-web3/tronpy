@@ -8,7 +8,7 @@ import eth_abi
 from eth_abi.registry import registry as default_registry
 
 
-from tronpy.keys import to_base58check_address, is_address, to_tvm_address
+from wallet.tronpy.keys import to_base58check_address, is_address, to_tvm_address
 
 
 class TronAddressDecoder(Fixed32ByteSizeDecoder):

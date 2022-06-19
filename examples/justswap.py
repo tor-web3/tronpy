@@ -4,8 +4,8 @@ import json
 import os
 import time
 
-from tronpy import Tron
-from tronpy import keys
+from wallet.tronpy import Tron
+from wallet.tronpy import keys
 
 __dir__ = os.path.dirname(__file__)
 

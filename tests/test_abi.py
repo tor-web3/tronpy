@@ -1,4 +1,4 @@
-from tronpy.abi import trx_abi
+from wallet.tronpy.abi import trx_abi
 
 
 def test_abi_encode():

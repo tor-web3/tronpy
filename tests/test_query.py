@@ -1,5 +1,5 @@
-from tronpy import Tron, AsyncTron
-from tronpy.keys import PrivateKey
+from wallet.tronpy import Tron, AsyncTron
+from wallet.tronpy.keys import PrivateKey
 import pytest
 
 

@@ -1,9 +1,9 @@
 import time
 
-from tronpy import Tron, AsyncTron
-from tronpy.keys import PrivateKey
-from tronpy.tron import Transaction
-from tronpy.async_tron import AsyncTransaction
+from wallet.tronpy import Tron, AsyncTron
+from wallet.tronpy.keys import PrivateKey
+from wallet.tronpy.tron import Transaction
+from wallet.tronpy.async_tron import AsyncTransaction
 import pytest
 
 
@@ -112,8 +112,8 @@ async def test_async_client():
 @pytest.mark.asyncio
 async def test_async_manual_client():
     from httpx import AsyncClient, Timeout, Limits
-    from tronpy.providers.async_http import AsyncHTTPProvider
-    from tronpy.defaults import CONF_NILE
+    from wallet.tronpy.providers.async_http import AsyncHTTPProvider
+    from wallet.tronpy.defaults import CONF_NILE
 
     _http_client = AsyncClient(
         limits=Limits(max_connections=100, max_keepalive_connections=20), timeout=Timeout(timeout=10, connect=5, read=5)
