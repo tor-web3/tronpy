@@ -8,6 +8,7 @@ import sys
 
 DEFAULT_TIMEOUT = 10.0
 DEFAULT_API_KEYS = [
+    '5626c652-d55b-4149-93f6-2a97d3449c43',
     'f92221d5-7056-4366-b96f-65d3662ec2d9',
     '1e0a625f-cfa5-43ee-ba41-a09db1aae55f',
     'f399168e-2259-481c-90fc-6b3d984c5463',
