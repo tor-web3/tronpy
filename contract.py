@@ -4,7 +4,7 @@ from Crypto.Hash import keccak
 from wallet.tronpy.exceptions import DoubleSpending
 from wallet.tronpy.abi import trx_abi
 from wallet.tronpy import keys
-import tronpy
+from wallet import tronpy
 
 
 def keccak256(data: bytes) -> bytes:
